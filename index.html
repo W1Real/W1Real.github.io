@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
     <title>Lucas Santos</title>
 </head>
 <body>
-    <p class="debug-banner">V2</p>
+    <p class="debug-banner">Release V3 🤣</p>
     <div class="main-wrapper">
         <main>
             <article>
@@ -15,6 +16,15 @@
                 <p>I'm currently learning Web Development with a focus on front-end.</p>
                 <p>I hope to be documenting on github my journey.</p>
                 <p>I will use this github page as a playground for my learning. Expect it to change drastically.</p>
+            </article>
+            <article class="center">
+                <p>Click on the button to show something cool!</p>
+                <button onclick="showParagraph()">Try it</button>
+                <p id="demo"></p>
+            </article>
+            <article class="center">
+                <button onclick="addNumber()">Add number</button>
+                <p id="number">0</p>
             </article>
         </main>
     </div>
