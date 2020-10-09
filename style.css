@@ -1,84 +1,89 @@
 .debug-banner {
-    padding: 16px;
+    padding: 1px;
     margin: 0;
     display: block; 
     position: fixed; 
     background-color: red;
-    opacity: 50%;
-}
-
-.center {
-    text-align: center;
+    opacity: 22%;
 }
 
 body {
     font-family: sans-serif;
     padding: 0;
     margin: 0;
-    background-color: #2e2e2e;
+    background-color: #222222;
 }
 
 button {
     padding: 16px 60px 16px 60px;
-}
-
-h1.hero {
-    font-size: 40px;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
+    background-color: #ececec;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.2em;
 }
 
 p {
     line-height: 1.4;
 }
 
-.main-wrapper {
-    display: grid;
-    place-items: center;
-    width: 100vw;
-    height: 100vh;
-}
 
-main {
+article {
     color: white;
     max-width: 600px;
     padding: 64px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     border-radius: 8px;
-    background-color: rgb(59, 59, 59);
-}
-
-hr {
-    margin: 100px;
-}
-
-article {
-    border-bottom: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.336);
     padding-bottom: 32px;
     margin-bottom: 32px;
 }
 
-article p {
-    font-weight: 100;
+
+#big-emoji {
+    padding: 0;
+    margin: 0;
+    font-size: 75px;
 }
 
-@media only screen and (max-width: 700px) {
+.score-wrapper {
+    margin: 16px;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.459);
+    border-radius: 8px;
+}
 
-    main {
-        box-shadow: none;
-        padding: 32px;
-    }
+.score-sad {
+    margin-bottom: 40px;
+    font-size: 39px;
+    opacity: 10%;
+}
 
-    body {
-        background-color: rgb(59, 59, 59);
-    }
+.score-happy {
+    margin-bottom: 40px;
+    font-size: 39px;
+    opacity: 100%;
+}
 
-    h1.hero {
-        font-size: 32px;
-    }
+#wating-input {
+    position: absolute;
+    left: 0px;
+    display: inline-block;
+}
 
-    hr {
-        visibility: hidden;
-    }
+.center {
+    text-align: center;
+}
 
+main {
+    padding-left: 30px;
+}
+
+footer {
+    display: block;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+footer span {
+    padding-left: 2em;
 }
