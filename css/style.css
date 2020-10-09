@@ -1,3 +1,12 @@
+.debug-banner {
+    padding: 16px;
+    margin: 0;
+    display: block; 
+    position: fixed; 
+    background-color: red;
+    opacity: 50%;
+}
+
 body {
     font-family: sans-serif;
     padding: 0;
