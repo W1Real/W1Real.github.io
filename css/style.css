@@ -5,8 +5,10 @@ body {
     background-color: #2e2e2e;
 }
 
-h1 {
-    font-size: 43px;
+h1.hero {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }
 
 p {
@@ -21,13 +23,39 @@ p {
 }
 
 main {
-    backdrop-filter: 5px;
     color: white;
     max-width: 600px;
     padding: 64px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.164);
+    background-color: rgb(59, 59, 59);
 }
 
-/* This is yet another change */
+hr {
+    margin: 100px;
+}
+
+article p {
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 700px) {
+
+    main {
+        box-shadow: none;
+        padding: 32px;
+    }
+
+    body {
+        background-color: rgb(59, 59, 59);
+    }
+
+    h1.hero {
+        font-size: 32px;
+    }
+
+    hr {
+        visibility: hidden;
+    }
+
+}
