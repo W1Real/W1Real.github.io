@@ -1,0 +1,89 @@
+.debug-banner {
+    padding: 1px;
+    margin: 0;
+    display: block; 
+    position: fixed; 
+    background-color: red;
+    opacity: 22%;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #222222;
+}
+
+button {
+    padding: 16px 60px 16px 60px;
+    background-color: #ececec;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.2em;
+}
+
+p {
+    line-height: 1.4;
+}
+
+
+article {
+    color: white;
+    max-width: 600px;
+    padding: 64px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.336);
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+}
+
+
+#big-emoji {
+    padding: 0;
+    margin: 0;
+    font-size: 160px;
+}
+
+.score-wrapper {
+    margin: 16px;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.459);
+    border-radius: 8px;
+}
+
+.score-sad {
+    margin-bottom: 40px;
+    font-size: 39px;
+    opacity: 10%;
+}
+
+.score-happy {
+    margin-bottom: 40px;
+    font-size: 39px;
+    opacity: 100%;
+}
+
+#wating-input {
+    position: absolute;
+    left: 0px;
+    display: inline-block;
+}
+
+.center {
+    text-align: center;
+}
+
+main {
+    padding-left: 30px;
+}
+
+footer {
+    display: block;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+footer span {
+    padding-left: 2em;
+}
