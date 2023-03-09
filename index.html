@@ -41,59 +41,12 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/NX6qSf6BIPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <br>
             </article>
-
-            <article class="center">
-                <p>Click on the button to show something cool!</p>
-                <button onclick="showParagraph()">Try it</button>
-                <p id="demo"></p>
-            </article>
-
-            <article class="center">
-                <button onclick="addNumber()">Add number</button>
-                <p id="number">0</p>
-            </article>
-
-            <article>
-                <p>How is the nicest & most beautiful girl in the world?<br></p>
-                <span>Enter your name: </span>
-                <input type="text" id="girl" onkeyup="whoIsTheNicestGirl()">
-                <br>
-                <div class="score-wrapper">
-                    <span id="big-emoji">😅</span>
-                    <span id="score">Awaiting to score.</span>
-                </div>
-            </article>
-
-            <article>
-                <h2>JavaScript Celcius to Fahrenhet</h2>
-
-                <p>Insert a number into one of the input fields below:</p>
-
-                <p><input id="c" onkeyup="convert('C')"> degrees Celsius</p>
-
-                <p><input id="f" onkeyup="convert('F')"> degrees Fahrenheit</p> 
-
-                <p>Note that the <b>Math.round()</b> method is used, so that the result will be returned as an integer.</p>
-
-                <script>
-                function convert(degree) {
-                var x;
-                if (degree == "C") {
-                    x = document.getElementById("c").value * 9 / 5 + 32;
-                    document.getElementById("f").value = Math.round(x);
-                } else {
-                    x = (document.getElementById("f").value -32) * 5 / 9;
-                    document.getElementById("c").value = Math.round(x);
-                }
-                }
-                </script>
-            </article>
         </main>
     </div>
 
     <footer>
         <span style="color: yellow; background-color: red;">⚠ WARNING: THIS WEBSITE IS FOR DEMO ONLY.</span>
-        <span>Copyright © Lucas Santos 2020</span>
+        <span>Copyright © Lucas Santos 2023</span>
         <span>Release v4 😉😂</span>
     </footer>
     
